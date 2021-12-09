@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  position: fixed;
+  height: 56px;
+  flex-shrink: 0;
+  box-shadow: var(--uni-shadow);
+  background-color: #fff;
+  z-index: 100;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}

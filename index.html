@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Malibu</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="container header__container">
+                <div class="logo__container">
+                    <a href="/" class="logo__link">
+                        <img src="./images/logo.png" alt="Логотип Малибу">
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <div class="navigation__contacts">
+                        
+                        <a href="tg:+79003001111" class="contacts__link">
+                            <span class="contacts__icon icon icon--telegram"></span>
+                            <span class="contacts__link-text">
+                                +7 900 300 11 11
+                            </span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="content">
+            <div class="menu__wrapper">
+                <aside class="menu">
+                    <div class="menu__container">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="" class="menu__link">Горящие туры</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Новости</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+            <div class="container">
+                <section class="banner__container">
+                    <div class="banner"></div>
+                </section>
+                <section class="tour">
+                    <h2 class="tour__heading heading--2">Подобрать тур</h2>
+                    <div class="tour__container">
+                        <form class="form tour__form">
+                            <div class="row">
+                                <div class="row__cell row__cell--half">
+                                    <label class="form__label">
+                                        <span class="form__input-label">Откуда</span>
+                                        <input type="text" class="form__input" name="from" placeholder="вылетаем?">
+                                        <small class="form__input-message"></small>
+                                    </label>
+                                </div>
+                                <div class="row__cell row__cell--half">
+                                    <label class="form__label row__cell--half">
+                                        <span class="form__input-label">Куда</span>
+                                        <input type="text" class="form__input" name="to" placeholder="прилетаем?">
+                                        <small class="form__input-message"></small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="row__cell row__cell-third">
+                                    <label class="form__label ">
+                                        <span class="form__input-label">Дата вылета</span>
+                                        <input type="date" name="date" class="form__input">
+                                        <small class="form__input-message"></small>
+                                    </label>
+                                </div>
+                                <div class="row__cell row__cell-third">
+                                    <label class="form__label ">
+                                        <span class="form__input-label">Ночей</span>
+                                        <input type="number" name="nights" class="form__input" placeholder="На сколько ночей останетесь?">
+                                        <small class="form__input-message"></small>
+                                    </label>
+                                </div>
+                                <div class="row__cell row__cell-third">
+                                    <label class="form__label ">
+                                        <span class="form__input-label">Людей</span>
+                                        <input type="number" name="persons" class="form__input" placeholder="Сколько людей поедет?">
+                                        <small class="form__input-message"></small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="tour__form-sumbit-container row__cell--fill">
+                                <button class="button button--primary tour__submit" type="submit">Найти</button>
+                            </div>        
+                        </form>
+                    </div>
+                </section>
+                <section class="hot-tours">
+                    <div class="hot-tours__container">
+                        <h2 class="heading--2 hot-tours__heading">Горящие туры</h2>
+                        <ul class="hot-tours__list">
+                            <article class="hot-tour">
+                                <img src="images/hottours/prague.jpg" alt="Прага. Чехия. 7 ночей. 24000 рублей. Вылет из Москвы" class="hot-tour__image">
+                                <div class="hot-tour__description">
+                                    <h3 class="hot-tour__title">Прага. Чехия</h3>
+                                    <small class="hot-tour__text hot-tour__days">7 ночей</small>
+                                    <small class="hot-tour__text hot-tour__price">24000</small>
+                                    <small class="hot-tour__text hot-tour__from">Вылет из Москвы</small>
+                                </div>
+                            </article>
+                            <article class="hot-tour">
+                                <img src="images/hottours/stambul.jpg" alt="Стамбул. Турция. 10 ночей. 35000 рублей. Вылет из Москвы." class="hot-tour__image">
+                                <div class="hot-tour__description">
+                                    <h3 class="hot-tour__title">Стамбул. Турция</h3>
+                                    <small class="hot-tour__text hot-tour__days">10 ночей</small>
+                                    <small class="hot-tour__text hot-tour__price">35000</small>
+                                    <small class="hot-tour__text hot-tour__from">Вылет из Москвы</small>
+                                </div>
+                            </article>
+                            <article class="hot-tour">
+                                <img src="images/hottours/barselona.jpg" alt="Барселона. Испания. 5 ночей. 22000 рублей. Вылет из Санкт-Петербурга." class="hot-tour__image">
+                                <div class="hot-tour__description">
+                                    <h3 class="hot-tour__title">Барселона. Испания</h3>
+                                    <small class="hot-tour__text hot-tour__days">5 ночей</small>
+                                    <small class="hot-tour__text hot-tour__price">22000</small>
+                                    <small class="hot-tour__text hot-tour__from">Вылет из Санкт-Петербурга</small>
+                                </div>
+                            </article>
+                        </ul>
+                        <!-- <article class="hot-tour">
+                            <img src="" alt="" class="hot-tour__image">
+                            <h3 class="hot-tour__title">Сити-тур в Будапешт. Венгрия</h3>
+                            <small class="hot-tour__days">3 ночи</small>
+                            <small class="hot-tour__price">15000 рублей</small>
+                            <small class="hor-tour__from">Вылет из Москвы</small>
+                        </article> -->
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="news__container">
+                        <h2 class="heading--2">Новости</h2>
+                        <article class="news__item">
+                            <img src="" alt="" class="news__image">
+                            <div class="news__title-container">
+                                <h3 class="news__title"></h3>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <section class="footer__contacts">
+    
+                </section>
+                <section class="footer__socials">
+                    <div class="social-link">VK</div>
+                    <div class="social-link">Instagram</div>
+                    <div class="social-link">Twitter</div>
+                </section>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

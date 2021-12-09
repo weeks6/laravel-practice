@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap");
+@import url("./logo.css");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./menu.css");
+@import url("./icon.css");
+@import url("./contacts.css");
+@import url("./heading.css");
+@import url("./form.css");
+@import url("./tour.css");
+@import url("./hottours.css");
+@import url("./button.css");
+@import url("./grid.css");
+
+:root {
+  --clr-primary-fg: #111;
+  --clr-secondary-fg: #1565c0;
+  --clr-theme-fg: #1565c0;
+  --clr-primary-bg: #1565c0;
+
+  --brd-small: 4px;
+  --brd-large: 8px;
+
+  --ffp: "Montserrat", sans-serif;
+  --ffs: "Raleway", sans-serif;
+
+  --uni-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="date"] {
+  font-size: 0.9em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding-top: 80px;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}

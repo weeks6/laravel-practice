@@ -1,0 +1,14 @@
+.contacts__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contacts__link-text {
+  font-family: var(--ffp);
+  color: var(--clr-primary-fg, #000);
+}
+
+.contacts__icon {
+  margin-right: 0.5em;
+}

@@ -1,0 +1,19 @@
+.form__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input-label {
+  font-family: var(--ffp);
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.form__input {
+  font-family: var(--ffs);
+  font-size: 1em;
+  padding: 0.75em 1em;
+}
+
+.form__input:focus-visible {
+}

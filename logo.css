@@ -1,0 +1,16 @@
+.logo__container {
+}
+
+.logo__link {
+  display: flex;
+}
+
+.logo__link img {
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo__link img {
+    width: 180px;
+  }
+}
