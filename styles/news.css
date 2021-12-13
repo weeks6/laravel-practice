@@ -79,6 +79,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .news {
+    margin-bottom: 4em;
+  }
+
   .news__container {
     display: grid;
     gap: 16px;

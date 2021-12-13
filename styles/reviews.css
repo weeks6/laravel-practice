@@ -1,0 +1,33 @@
+.reviews {
+}
+
+.reviews__list {
+  margin: 0;
+  padding: 0;
+}
+
+.reviews__item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 480px;
+  overflow: hidden;
+  border-radius: var(--brd-large);
+}
+
+.reviews__img {
+  object-fit: cover;
+  max-width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.reviews__container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: var(--brd-small);
+}

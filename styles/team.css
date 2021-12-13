@@ -15,7 +15,6 @@
   box-shadow: var(--uni-shadow);
   border: 1px solid var(--clr-gray-100);
   border-radius: var(--brd-large);
-  flex-basis: calc(100% / 3);
   overflow: hidden;
 }
 
@@ -58,10 +57,26 @@
 }
 
 .team__item-phone-number {
+  font-size: 0.9em;
 }
 
 @media screen and (min-width: 768px) {
   .team__list {
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .team__item {
+    flex-basis: calc(100% / 2 - 12px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .team__list {
+    flex-wrap: nowrap;
+  }
+
+  .team__item {
+    flex-basis: calc(100% / 3);
   }
 }
