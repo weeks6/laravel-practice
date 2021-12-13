@@ -1,0 +1,67 @@
+.team {
+  margin-bottom: 4em;
+}
+
+.team__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.team__item {
+  display: flex;
+  background-color: #fefefe;
+  box-shadow: var(--uni-shadow);
+  border: 1px solid var(--clr-gray-100);
+  border-radius: var(--brd-large);
+  flex-basis: calc(100% / 3);
+  overflow: hidden;
+}
+
+.team__item-img {
+  max-width: 100%;
+  width: 120px;
+  object-fit: cover;
+  border-radius: var(--brd-large);
+}
+
+.team__item-data {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.team__item-name {
+  font-family: var(--ffp);
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.team__item-job {
+  font-family: var(--ffs);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2em;
+}
+
+.team__item-phone {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  font-family: var(--ffp);
+  text-decoration: none;
+  color: var(--clr-secondary-fg);
+}
+
+.team__item-phone-icon {
+  margin-right: 0.25em;
+}
+
+.team__item-phone-number {
+}
+
+@media screen and (min-width: 768px) {
+  .team__list {
+    flex-direction: row;
+  }
+}

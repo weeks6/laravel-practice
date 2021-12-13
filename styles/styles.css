@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url('./logo.css');
+@import url('./header.css');
+@import url('./navigation.css');
+@import url('./footer.css');
+@import url('./menu.css');
+@import url('./icon.css');
+@import url('./contacts.css');
+@import url('./heading.css');
+@import url('./form.css');
+@import url('./tour.css');
+@import url('./hottours.css');
+@import url('./button.css');
+@import url('./grid.css');
+@import url('./team.css');
+@import url('./news.css');
+
+:root {
+  --clr-primary-fg: #212121;
+  --clr-secondary-fg: rgb(16, 77, 148);
+  --clr-theme-fg: #104d94;
+  --clr-primary-bg: rgb(16, 77, 148);
+
+  --clr-gray-100: #ececec;
+  --clr-gray-300: ;
+  --clr-gray-500: #aaa;
+
+  --brd-small: 4px;
+  --brd-large: 8px;
+
+  --ffp: 'Montserrat', sans-serif;
+  --ffs: 'Raleway', sans-serif;
+
+  --uni-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.05);
+  --large-shadow: 0 12px 18px rgba(0, 0, 0, 0.1),
+    0 16px 24px rgba(0, 0, 0, 0.12);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent none;
+  border-radius: 16px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 16px;
+  background: var(--clr-gray-500);
+  /* -webkit-box-shadow: inset 0 0 6px $color_accent;
+  box-shadow: inset 0 0 6px $color_accent; */
+}
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  border-radius: 16px;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input[type='date'] {
+  font-size: 0.9em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input[type='date'] {
+  width: auto;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-primary-fg);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding-top: 80px;
+  position: relative;
+  background-color: #104d940f;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}

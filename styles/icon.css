@@ -1,0 +1,30 @@
+.icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  mask-position: center;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 24px 24px;
+}
+
+.icon--telegram {
+  background-image: url('../images/icons/place_black_24dp.svg');
+}
+
+.icon--search {
+  mask-image: url('../images/icons/search_black_24dp.svg');
+  -webkit-mask: url('../images/icons/search_black_24dp.svg');
+  background: #000;
+}
+
+.icon--menu {
+  background-image: url('../images/icons/menu_black_24dp.svg');
+}
+
+.icon--phone {
+  background-image: url('../images/icons/phone_black_24dp.svg');
+}

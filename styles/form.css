@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.form__label {
+  margin-bottom: 0.75em;
+}
+
 .form__input-label {
   font-family: var(--ffp);
   font-size: 1em;
@@ -16,4 +20,10 @@
 }
 
 .form__input:focus-visible {
+}
+
+@media screen and (min-width: 768px) {
+  .form__label {
+    margin-bottom: 0;
+  }
 }

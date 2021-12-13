@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+}
+
+.navigation__contacts {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation__contacts {
+    display: flex;
+    margin-right: 1em;
+  }
+}

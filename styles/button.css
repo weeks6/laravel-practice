@@ -3,6 +3,9 @@
   border: none;
   cursor: pointer;
   padding: 0.75em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button--primary {

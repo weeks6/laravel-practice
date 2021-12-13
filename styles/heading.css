@@ -9,3 +9,12 @@
   font-size: 2em;
   font-weight: bold;
 }
+
+.heading--3 {
+  padding: 0;
+  margin: 0;
+  font-family: var(--ffs);
+  color: var(--clr-theme-fg, #111);
+  font-size: 1.2em;
+  font-weight: bold;
+}

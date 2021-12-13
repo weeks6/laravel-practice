@@ -1,0 +1,16 @@
+.footer {
+  flex-shrink: 0;
+  padding: 2em 0;
+  border-top: 1px solid var(--clr-gray-100);
+  background-color: #fefefe;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__socials-list {
+  display: flex;
+  padding: 0;
+}
